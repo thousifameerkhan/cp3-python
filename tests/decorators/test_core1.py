@@ -1,4 +1,4 @@
-from core1 import uppercase
+from decorators.core1 import uppercase
 
 def test_uppercase_decorator():
     @uppercase
@@ -7,3 +7,5 @@ def test_uppercase_decorator():
 
 
     assert greetname("alice") == "HELLO, ALICE"
+
+    
